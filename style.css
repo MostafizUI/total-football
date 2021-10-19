@@ -1,11 +1,12 @@
 /* Fonts */
 /* poppins 700 */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,700;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;800;900&display=swap');
 
 /* Common Style */
 body{
     font-family: 'Poppins', sans-serif;
 }
+
 
 
 /* Player Card style */
@@ -106,3 +107,190 @@ body{
     }
 
     /* player card section ends */
+
+    /*All  Highlight section style start */
+
+    .all-highlights{
+     width: 470px;
+     height: 310px;
+     margin: 225px 65px 217px 182px ;
+     
+    }
+
+    .highlights-container{
+        display: flex;
+        width: 470px;
+        height: 310px;
+      
+    }
+
+    .highlights-blog{
+        display: flex;
+        flex-direction: column;
+        
+        
+       
+        
+    }
+    .highlights-heading{
+        width: 469px;
+        height: 120px;
+        padding-bottom: 65px;
+       
+        
+        
+    }
+    .highlights-heading h1{
+       
+        width: 100%;
+        height: 100%;
+        font-style: normal;
+        font-size: 48px;
+        font-weight: bold;
+        color: #0A0826;
+        
+       
+        
+        
+    }
+
+    
+    .highlights-article{
+        width: 404px;
+        height: 113px;
+        color: #6C6C6C;
+        font-style: normal;
+        font-size: 16px;
+        overflow: hidden;
+        
+       
+    }
+    
+    .blog{
+   
+        width: 404px;
+        height: 100%;
+        margin-right: -30px;
+        padding-right: 30px;
+        overflow-y:scroll;
+    }
+/* Button style */
+    button{
+       border: none; 
+       width: 172px;
+       height: 44px; 
+       background-color: #E02C6D;
+       margin-top: 24px;
+    }
+   .flex-container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       color: #FFFFFF;
+     }
+     .button-icon{
+        height: 24px;
+        width: 24px;
+     }
+     .button-icon img{
+         height: 24px;
+         width: 24px;
+         margin: 0 8px;
+         
+         
+     }
+
+/* button style finish */
+
+     .highlights-image{
+        width: 567px;
+        height: 427px;
+        margin-left: 65px;
+     }
+
+     .highlights-image img{
+        width: 567px;
+        height: 427px;
+     }
+ /* Main section end */
+     /* footer start */
+
+     .footer-items{
+        width:483.87px;
+        height: 213px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+     }
+     .flexible-footer{
+        
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+     .footer-details{
+        width:483.87px;
+        height: 142px;   /* footer image + social logo height combined */
+        align-items: center;
+        justify-content: center;
+     }
+     .footer-logo{
+        width: 483.87px;
+        height: 110px;
+     }
+
+     .footer-logo img{
+        width: 483.87px;
+        height: 110px;
+     }
+     .social{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+    
+     .social-logo{
+         width: 170px; 
+         height: 32px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         
+         
+
+     }
+
+     .flexible-logo{
+        width: 170px;    
+        
+         display: flex;
+         justify-content: space-around;
+         
+     }
+
+    
+
+      
+
+     .logo img{
+         height: 17px;
+         width: 17px;
+     }
+
+     a img:hover{
+         transform: scale(2);
+         transition: 200ms;
+         background-color: rgb(238, 25, 25);
+         border-radius: 50%;
+     }
+
+     .copy-right{
+         width: 236px;
+         height: 31px; /*random*/
+         color: #000000;
+         font-size: 18px;
+         font-weight: normal;
+     }
+
+     /* footer section ends */
