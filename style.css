@@ -2,11 +2,7 @@
 /* poppins 700 */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;800;900&display=swap');
 
-/* Common Style */
-body{
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-}
+
 
 /* menu bar starts */
 
@@ -14,11 +10,123 @@ body{
     
     background: #2D25A0;
     height: 603px;
+    width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     
     
 }
+
+/* Menu style */
+.menu-bar-container{
+    width: 1160px;
+    height: 44px;
+    margin-left:156px;
+    padding-top: 42px;
+    margin-right: 124px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.menu-container ul{
+    width: 587px;
+    height: 24px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+.menu-container ul>li{
+    color: #FFFFFF;
+    font-size:16px;
+    font-family: 500px;
+}
+
+.menu li>a{
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 2px;
+    border-radius: 2px;
+}
+.menu li>a:hover{
+    background:  #E02C6D;
+    color:  #FFFFFF;
+    transition: 150ms;
+}
+
+
+
+/* login button style */
+.login{
+    width: 123px;
+    height: 44px;
+    position:sticky;
+    
+}
+.login button{
+    width: 123px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 2px;
+}
+.login-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.watch-live{
+    width: 485px;
+    height: 230px;
+    margin: 121px 102px 0 156px;
+}
+/* watch title */
+
+.watch-title h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 80px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+
+.watch-btn-live button{
+    border: none; 
+    border-radius: 5px;
+    width: 168px;
+    height: 44px; 
+    background-color: #E02C6D;
+    
+ }
+.watch-flex-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    /* margin: 0; */
+  }
+ .button-icon a{
+     height: 24px;
+     width: 24px;
+     margin: 0 8px;
+ }
+
+
+/* Body Style */
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 
 
 /* Player Card style */
@@ -187,7 +295,7 @@ body{
         overflow-y:scroll;
     }
 /* Button style */
-    button{
+    .watch-btn button{
        border: none; 
        border-radius: 5px;
        width: 172px;
@@ -195,7 +303,7 @@ body{
        background-color: #E02C6D;
        margin-top: 24px;
     }
-   .flex-container{
+   .btn-flex-container{
        display: flex;
        align-items: center;
        justify-content: center;
@@ -283,7 +391,7 @@ body{
          width: 17px;
      }
 
-     a img:hover{
+     .logo a img:hover{
          transform: scale(2);
          transition: 200ms;
          background-color: rgb(238, 25, 25);
@@ -299,3 +407,15 @@ body{
      }
 
      /* footer section ends */
+
+     /* Media query */
+     /* @media only screen and (max-width: 600px) {
+         .menu-bar{
+             display: none;
+         }
+        .header-sec {
+            width: 100%;
+            height: 695px;
+         
+        }
+      } */
