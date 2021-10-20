@@ -5,8 +5,20 @@
 /* Common Style */
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 
+/* menu bar starts */
+
+.header-sec{
+    
+    background: #2D25A0;
+    height: 603px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+}
 
 
 /* Player Card style */
@@ -177,6 +189,7 @@ body{
 /* Button style */
     button{
        border: none; 
+       border-radius: 5px;
        width: 172px;
        height: 44px; 
        background-color: #E02C6D;
@@ -188,19 +201,11 @@ body{
        justify-content: center;
        color: #FFFFFF;
      }
-     .button-icon{
+    .button-icon a{
         height: 24px;
         width: 24px;
-     }
-     .button-icon img{
-         height: 24px;
-         width: 24px;
-         margin: 0 8px;
-         
-         
-     }
-
-/* button style finish */
+        margin: 0 8px;
+    }
 
      .highlights-image{
         width: 567px;
