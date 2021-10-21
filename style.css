@@ -3,6 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700;800;900&display=swap');
 
 
+/* Body Style */
+body{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 
 
@@ -20,6 +29,10 @@
     
 }
 
+.fas.fa-bars{
+    display: none;
+}
+
 /* Menu style */
 .menu-bar-container{
     width: 1160px;
@@ -28,6 +41,7 @@
     padding-top: 24px;
     display: flex;
     justify-content: space-between;
+    
 
 }
 
@@ -142,15 +156,6 @@
  }
 
 
-/* Body Style */
-body{
-    font-family: 'Poppins', sans-serif;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-}
 
 
 /* main section */
@@ -435,13 +440,126 @@ body{
      /* footer section ends */
 
      /* Media query */
-     /* @media only screen and (max-width: 600px) {
-         .menu-bar{
-             display: none;
-         }
+     @media only screen and (max-width: 600px) {
+
+        /* main{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            
+        } */
+        
+        /* header part */
+        
         .header-sec {
             width: 100%;
-            height: 695px;
+            height: 726px;
          
         }
-      } */
+
+        .menu-container{
+            display: none;
+        }
+
+        .menu-bar-container{
+           
+            width: 265px;
+            margin-left: 16px;
+            padding-top: 36px;
+            margin-right: 21px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .toggle-menu{
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .fas.fa-bars{
+            display: block;
+            color: #FFFFFF;
+            height: 24px;
+            width: 24px;
+        }
+
+       
+
+        /* banner section */
+        /* watch live section */
+        .watch-live{
+            
+            display: flex;
+            flex-direction: column;
+             margin: 46.12px 66px 50px 16px;
+           
+        }
+
+        .watch-title{
+            width: 278px;
+            height: 138px;
+           
+        }
+
+        .watch-title h1{
+            width: 278px;
+            height: 138px;
+            font-size: 36px;
+            line-height: 50px;
+        }
+
+        .watch-btn-live{
+            height: 44px;
+            width: 168px;
+        }
+        /* banner image part */
+        .banner{
+            display: flex;
+            flex-direction: column;
+        }
+        .banner-image{
+            width: 329px;
+            height: 259px;
+            margin: 0 16px 61px 16px;
+        }
+        .banner-image img{
+            width: 329px;
+            height: 259px;
+        }
+
+       
+
+
+        /* player card section */
+
+        .player-catalog{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+           
+        }
+        /* highlights section */
+        .all-highlights{
+            margin-top: 15px;
+        }
+        .highlights-container{
+            margin-top: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .highlights-blog{
+            margin-bottom: 29px;
+        }
+
+        footer{
+            display: flex;
+            align-items: center;
+            
+        }
+    
+      }
